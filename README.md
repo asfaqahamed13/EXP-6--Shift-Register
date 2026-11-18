@@ -21,7 +21,7 @@ Serial output: sout = Q[3]   (the bit about to be shifted out)
 
 ## Design / RTL Program
 ```
-// gedit shift_reg.v
+
 module shift_reg (
     input  wire       clk,   // clock
     input  wire       rst,   // asynchronous active-high reset
